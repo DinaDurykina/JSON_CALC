@@ -1,0 +1,22 @@
+{
+  "$jason": {
+    "head": {
+      "title": "calculator app",
+      "description": "This application is to calculate the cost of wrapping the site in a mobile application",
+      "icon": "https://DinaDurykina.github.io/icons8-estimate-24.png",
+      "actions": {
+        "$load":    { "type": "$render" },
+        "navigate": {"type": "$default" }
+      },
+      "templates": {
+        "body": {
+          "background": {
+            "type": "html",
+            "url": "https://venturepact.com/mobile_app_price_calculator",
+            "action": { "trigger": "navigate" }
+          }
+        }
+      }
+    }
+  }
+}
