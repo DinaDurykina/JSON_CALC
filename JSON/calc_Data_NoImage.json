@@ -41,35 +41,35 @@
             "components": [{
               "type": "label",
               "class": "bold",
-              "text": "Security"
+              "text": "Data"
             }, {
               "type": "label",
               "class": "normal",
-              "text": "How will your users sign up and login into the app?"
+              "text": "Which 3rd party services do you need to integrate with?"
             }]
           },
           "items": [
             {
               "type": "label",
-              "text": "Email ID and Password",
+              "text": "Social Networks",
               "class": "bold padded",
               "image": "https://DinaDurykina.github.io/icons8-операционная-система-android-24.png"
             },
             {
               "type": "label",
-              "text": "Via Social Networks",
+              "text": "Location",
               "class": "bold padded",
               "image": "https://DinaDurykina.github.io/icons8-ос-mac-24.png"
             },
             {
               "type": "label",
-              "text": "Using 2 Step Authorization",
+              "text": "Media",
               "class": "bold padded",
               "image": "https://DinaDurykina.github.io/icons8-windows-8-24.png"
             },
             {
               "type": "label",
-              "text": "No Sign Up Required",
+              "text": "eCommerce",
               "class": "bold padded",
               "image": "https://DinaDurykina.github.io/icons8-шаблон-24.png"
             }
@@ -85,34 +85,34 @@
             "components": [{
               "type": "label",
               "class": "bold",
-              "text": "Security"
+              "text": "Database"
             }, {
               "type": "label",
               "class": "normal",
-              "text": "How do you wish to secure your app??"
+              "text": "Where do you want to save your application data ?"
             }]
           },
           "items": [{
             "type": "label",
-            "text": "Security Not Important",
+            "text": "A new database",
             "class": "bold padded",
             "image": "https://DinaDurykina.github.io/icons8-глобус-24.png"
           },
             {
               "type": "label",
-              "text": "Basic Security Measures",
+              "text": "An Existing Database",
               "class": "bold padded",
               "image": "https://DinaDurykina.github.io/icons8-глобус-24.png"
             },
             {
               "type": "label",
-              "text": "Encrypted Communication",
+              "text": "Cloud Database",
               "class": "bold padded",
               "image": "https://DinaDurykina.github.io/icons8-глобус-24.png"
             },
             {
               "type": "label",
-              "text": "Complete Protection",
+              "text": "I'm not sure",
               "class": "bold padded",
               "image": "https://DinaDurykina.github.io/icons8-глобус-24.png"
             }]
@@ -129,14 +129,14 @@
               {
                 "type": "label",
                 "class": "normal",
-                "text": "Select user authentication settings and how you want to protect the application, and then click"
+                "text": "Select third-party services and storage method and click"
               },
               {
                 "type": "label",
                 "text": "NEXT",
                 "class": "bold",
                 "href": {
-                  "url": "https://DinaDurykina.github.io/brazuka.json",
+                  "url": "https://DinaDurykina.github.io/calc_Security_NoImage.json",
                   "transition": "modal"
                 }
               }
