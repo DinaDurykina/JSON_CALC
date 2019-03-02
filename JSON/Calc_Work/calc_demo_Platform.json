@@ -41,7 +41,13 @@
             "components": [{
               "type": "label",
               "class": "bold",
-              "text": "Platform"
+              "text": "Platform",
+              "style": {
+                "font": "San Francisco Pro",
+                "size": "25",
+                "color": "rgb(0,0,128)",
+                "padding": "10"
+              }
             }, {
               "type": "label",
               "class": "normal",
@@ -72,7 +78,7 @@
               "text": "Hybrid",
               "class": "bold padded",
               "image": "https://DinaDurykina.github.io/icons8-шаблон-24.png"
-              },
+            },
             {
               "type": "label",
               "text": "Other",
@@ -82,31 +88,30 @@
           ]
         },
         {
-          "head": {
-            "title": "Rectangle Button"
-          },
-          "body": {
-            "sections": [{
-              "items": [{
-                "type": "vertical",
-                "style": {
-                  "align": "center"
-                },
-                "components": [{
-                  "type": "button",
-                  "style": {
-                    "width": "200",
-                    "height": "100",
-                    "background": "#0000CD",
-                    "color": "#ffffff",
-                    "font": "HelveticaNeue-Bold",
-                    "size": "15"
-                  },
-                  "text": "NEXT"
-                }]
-              }]
-            }]
+
+          "header": {
+            "type": "vertical",
+            "style": {
+              "background": "#ebebeb"
+            },
+            "components": [
+              {
+                "type": "label",
+                "class": "normal",
+                "text": "Select one or more Platforms and click"
+              },
+              {
+                "type": "label",
+                "text": "NEXT",
+                "class": "bold",
+                "href": {
+                  "url": "https://DinaDurykina.github.io/calc_Design_NoImage.json",
+                  "transition": "modal"
+                }
+              }
+            ]
           }
+
         }
       ]
     }
