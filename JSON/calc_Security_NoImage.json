@@ -41,46 +41,83 @@
             "components": [{
               "type": "label",
               "class": "bold",
-              "text": "Platform"
+              "text": "Security"
             }, {
               "type": "label",
               "class": "normal",
-              "text": "Which platform will the app be built on?"
+              "text": "How will your users sign up and login into the app?"
             }]
           },
           "items": [
             {
               "type": "label",
-              "text": "Android",
+              "text": "Email ID and Password",
               "class": "bold padded",
               "image": "https://DinaDurykina.github.io/icons8-операционная-система-android-24.png"
             },
             {
               "type": "label",
-              "text": "IOS",
+              "text": "Via Social Networks",
               "class": "bold padded",
               "image": "https://DinaDurykina.github.io/icons8-ос-mac-24.png"
             },
             {
               "type": "label",
-              "text": "Windows",
+              "text": "Using 2 Step Authorization",
               "class": "bold padded",
               "image": "https://DinaDurykina.github.io/icons8-windows-8-24.png"
             },
             {
               "type": "label",
-              "text": "Hybrid",
+              "text": "No Sign Up Required",
               "class": "bold padded",
               "image": "https://DinaDurykina.github.io/icons8-шаблон-24.png"
-            },
-            {
-              "type": "label",
-              "text": "Other",
-              "class": "bold padded",
-              "image": "https://DinaDurykina.github.io/icons8-глобус-24.png"
             }
           ]
         },
+
+        {
+          "header": {
+            "type": "vertical",
+            "style": {
+              "background": "#ebebeb"
+            },
+            "components": [{
+              "type": "label",
+              "class": "bold",
+              "text": "Security"
+            }, {
+              "type": "label",
+              "class": "normal",
+              "text": "How do you wish to secure your app??"
+            }]
+          },
+          "items": [{
+            "type": "label",
+            "text": "Security Not Important",
+            "class": "bold padded",
+            "image": "https://DinaDurykina.github.io/icons8-глобус-24.png"
+          },
+            {
+              "type": "label",
+              "text": "Basic Security Measures",
+              "class": "bold padded",
+              "image": "https://DinaDurykina.github.io/icons8-глобус-24.png"
+            },
+            {
+              "type": "label",
+              "text": "Encrypted Communication",
+              "class": "bold padded",
+              "image": "https://DinaDurykina.github.io/icons8-глобус-24.png"
+            },
+            {
+              "type": "label",
+              "text": "Complete Protection",
+              "class": "bold padded",
+              "image": "https://DinaDurykina.github.io/icons8-глобус-24.png"
+            }]
+        },
+
         {
 
           "header": {
@@ -99,7 +136,7 @@
                 "text": "NEXT",
                 "class": "bold",
                 "href": {
-                  "url": "https://DinaDurykina.github.io/calc_Design_NoImage.json",
+                  "url": "https://DinaDurykina.github.io/brazuka.json",
                   "transition": "modal"
                 }
               }
