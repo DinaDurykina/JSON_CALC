@@ -31,7 +31,7 @@
               "url": "https://DinaDurykina.github.io/Brazuka_Rebrand_shkolatansev_black.png"
             },
             "menu": {
-              "text": "+7(499)340-42-13",
+              "text": "Dance School",
               "style": {
                 "color": "#3F51B5",
                 "font": "Roboto",
@@ -89,9 +89,7 @@
               "action": {
                 "type": "$set",
                 "options": {
-                  "bg": {
-                    "type": "camera"
-                  }
+                  "bg": "#ff0000"
                 },
                 "success": {
                   "type": "$render"
@@ -156,15 +154,15 @@
               "items": [
                 {
                   "image": "https://DinaDurykina.github.io/icons8-vk.com-24.png",
-                  "url": "https://DinaDurykina.github.io/7_br_vk.json"
+                  "url": "https://DinaDurykina.github.io/buyteh.json"
                 },
                 {
                   "image": "https://DinaDurykina.github.io/icons8-home-page-24.png",
-                  "url": "https://DinaDurykina.github.io/7_br_home.json"
+                  "url": "https://DinaDurykina.github.io/bagteh.json"
                 },
                 {
                   "image": "https://DinaDurykina.github.io/icons8-marker-24.png",
-                  "url": "https://DinaDurykina.github.io/7_br_map.json"
+                  "url": "https://DinaDurykina.github.io/truckteh.json"
                 }
               ]
             }
