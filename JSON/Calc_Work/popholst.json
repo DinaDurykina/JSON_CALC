@@ -1,12 +1,12 @@
 {
   "$jason": {
     "head": {
-      "title": "BRAZUKA",
+      "title": "POPHOLST",
       "actions": {
         "$load": {
           "type": "$set",
           "options": {
-            "bg": "#212121"
+            "bg": "#9E9E9E"
           },
           "success": {
             "type": "$render"
@@ -17,7 +17,7 @@
         "body": {
           "header": {
             "style": {
-              "background": "#FF9800",
+              "background": "#C5CAE9",
               "color": "#212121"
             },
             "title": {
@@ -28,19 +28,19 @@
                 "width": "120",
                 "height": "50"
               },
-              "url": "https://DinaDurykina.github.io/Brazuka_Rebrand_shkolatansev_black.png"
+              "url": "https://DinaDurykina.github.io/logo8newa.png"
             },
             "menu": {
-              "text": "+7(499)340-42-13",
+              "text": "+7(981)788-13-51",
               "style": {
-                "color": "#424242",
+                "color": "#212121",
                 "font": "Roboto",
                 "size": "16"
               },
               "action": {
                 "type": "$util.toast",
                 "options": {
-                  "text": " Гамсоновский пер., дом 2с1 \n БЦ «Центр Т», 3 этаж, 403.\n м. Тульская (150 шагов)\n Взять документ!"
+                  "text": " СЕРВИС №1\n ПО СОЗДАНИЮ ПОРТРЕТОВ\n И ПЕЧАТИ НА ХОЛСТЕ!"
                 }
               }
             }
@@ -51,16 +51,14 @@
           "layers": [
             {
               "type": "label",
-              "text": " Когда \n последний раз \n Вы танцевали ?",
+              "text": " Не будь скотиной-\n создай картину! \n Напечатай на холсте \n и повесишь на стене!",
               "style": {
-                "background": "rgba(0,0,0,0.7)",
+                "background": "rgba(0,0,0,0.0)",
                 "color": "#ffffff",
-                "width": "310",
                 "padding": "10",
                 "left": "10",
                 "font": "Roboto",
-                "size": "36",
-                "corner_radius": "7",
+                "size": "28",
                 "bottom": "265"
               },
               "action": {
@@ -77,7 +75,7 @@
             },
             {
               "type": "button",
-              "text": "Первый урок - бесплатно",
+              "text": "ОФОРМИТЬ ЗАКАЗ",
               "style": {
                 "background": "#FF4081",
                 "color": "#ffffff",
@@ -92,15 +90,29 @@
                 "bottom": "170"
               },
               "action": {
-                "type": "$util.toast",
+                "type": "$util.alert",
                 "options": {
-                  "text": "Нажали на кнопку урок"
+                  "title": "Мы сделаем больше, чем Вы ожидаете!",
+                  "description": "Введите Ваше имя, e-mail, что печатаем, \n и нажмите кнопку ОК, \n наши сотрудники свяжутся с Вами",
+                  "form": [{
+                    "name": "username",
+                    "placeholder": "Введите имя"
+                  }, {
+                    "name": "e-mail",
+                    "placeholder": "Введите e-mail",
+                    "secure": "true"
+                  },
+                    {
+                      "name": "order",
+                      "placeholder": "Что печатаем?"
+                    }
+                  ]
                 }
               }
             },
             {
               "type": "button",
-              "text": "Танцевальные направления",
+              "text": "УСЛУГИ и ЦЕНЫ",
               "style": {
                 "background": "#C5CAE9",
                 "color": "#212121",
@@ -117,7 +129,7 @@
               "action": {
                 "type": "$util.toast",
                 "options": {
-                  "text": "Нажали на кнопку направления"
+                  "text": "Нажали на кнопку"
                 }
               }
             }
@@ -125,8 +137,8 @@
           "footer": {
             "tabs": {
               "style": {
-                "background": "#FF9800",
-                "color": "#000000"
+                "background": "#FAFAFA",
+                "color": "#9E9E9E"
               },
               "items": [
                 {

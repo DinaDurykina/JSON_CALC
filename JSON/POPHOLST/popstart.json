@@ -1,12 +1,12 @@
 {
   "$jason": {
     "head": {
-      "title": "BRAZUKA",
+      "title": "POPHOLST",
       "actions": {
         "$load": {
           "type": "$set",
           "options": {
-            "bg": "#212121"
+            "bg": "#9E9E9E"
           },
           "success": {
             "type": "$render"
@@ -17,7 +17,7 @@
         "body": {
           "header": {
             "style": {
-              "background": "#FF9800",
+              "background": "#C5CAE9",
               "color": "#212121"
             },
             "title": {
@@ -28,19 +28,19 @@
                 "width": "120",
                 "height": "50"
               },
-              "url": "https://DinaDurykina.github.io/Brazuka_Rebrand_shkolatansev_black.png"
+              "url": "https://DinaDurykina.github.io/logo8newa.png"
             },
             "menu": {
-              "text": "+7(499)340-42-13",
+              "text": "+7(981)788-13-51",
               "style": {
-                "color": "#424242",
+                "color": "#212121",
                 "font": "Roboto",
                 "size": "16"
               },
               "action": {
                 "type": "$util.toast",
                 "options": {
-                  "text": " Гамсоновский пер., дом 2с1 \n БЦ «Центр Т», 3 этаж, 403.\n м. Тульская (150 шагов)\n Взять документ!"
+                  "text": " СЕРВИС №1\n ПО СОЗДАНИЮ ПОРТРЕТОВ\n И ПЕЧАТИ НА ХОЛСТЕ!"
                 }
               }
             }
@@ -51,16 +51,14 @@
           "layers": [
             {
               "type": "label",
-              "text": " Когда \n последний раз \n Вы танцевали ?",
+              "text": " Не будь скотиной-\n создай картину! \n Напечатай на холсте \n и повесишь на стене!",
               "style": {
-                "background": "rgba(0,0,0,0.7)",
+                "background": "rgba(0,0,0,0.0)",
                 "color": "#ffffff",
-                "width": "310",
                 "padding": "10",
                 "left": "10",
                 "font": "Roboto",
-                "size": "36",
-                "corner_radius": "7",
+                "size": "28",
                 "bottom": "265"
               },
               "action": {
@@ -76,8 +74,8 @@
               }
             },
             {
-              "type": "button",
-              "text": "Первый урок - бесплатно",
+              "type": "label",
+              "text": "ОФОРМИТЬ ЗАКАЗ",
               "style": {
                 "background": "#FF4081",
                 "color": "#ffffff",
@@ -92,15 +90,18 @@
                 "bottom": "170"
               },
               "action": {
-                "type": "$util.toast",
+                "type": "$set",
                 "options": {
-                  "text": "Нажали на кнопку урок"
+                  "bg": "#00ff00"
+                },
+                "success": {
+                  "type": "$render"
                 }
               }
             },
             {
-              "type": "button",
-              "text": "Танцевальные направления",
+              "type": "label",
+              "text": "УСЛУГИ",
               "style": {
                 "background": "#C5CAE9",
                 "color": "#212121",
@@ -115,9 +116,12 @@
                 "bottom": "105"
               },
               "action": {
-                "type": "$util.toast",
+                "type": "$set",
                 "options": {
-                  "text": "Нажали на кнопку направления"
+                  "bg": "http://i.giphy.com/Is0AJv4CEj9hm.gif"
+                },
+                "success": {
+                  "type": "$render"
                 }
               }
             }
@@ -125,21 +129,21 @@
           "footer": {
             "tabs": {
               "style": {
-                "background": "#FF9800",
-                "color": "#000000"
+                "background": "#FAFAFA",
+                "color": "#9E9E9E"
               },
               "items": [
                 {
                   "image": "https://DinaDurykina.github.io/icons8-vk.com-24.png",
-                  "url": "https://DinaDurykina.github.io/7_br_vk.json"
+                  "url": "https://DinaDurykina.github.io/7popvk.json"
                 },
                 {
                   "image": "https://DinaDurykina.github.io/icons8-home-page-24.png",
-                  "url": "https://DinaDurykina.github.io/7_br_home.json"
+                  "url": "https://DinaDurykina.github.io/7pophome.json"
                 },
                 {
                   "image": "https://DinaDurykina.github.io/icons8-marker-24.png",
-                  "url": "https://DinaDurykina.github.io/7_br_map.json"
+                  "url": "https://DinaDurykina.github.io/7popmap.json"
                 }
               ]
             }
