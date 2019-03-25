@@ -60,17 +60,6 @@
                 "font": "Roboto",
                 "size": "28",
                 "bottom": "265"
-              },
-              "action": {
-                "type": "$set",
-                "options": {
-                  "bg": {
-                    "type": "camera"
-                  }
-                },
-                "success": {
-                  "type": "$render"
-                }
               }
             },
             {
@@ -92,27 +81,32 @@
               "action": {
                 "type": "$util.alert",
                 "options": {
-                  "title": "Мы сделаем больше, чем Вы ожидаете!",
-                  "description": "Введите Ваше имя, e-mail, что печатаем, \n и нажмите кнопку ОК, \n наши сотрудники свяжутся с Вами",
+                  "title": "ЗАКАЗАТЬ ЗВОНОК:",
+                  "description": "Представьтесь, \nи мы перезвоним Вам ",
                   "form": [{
                     "name": "username",
                     "placeholder": "Введите имя"
                   }, {
-                    "name": "e-mail",
-                    "placeholder": "Введите e-mail",
-                    "secure": "true"
-                  },
-                    {
-                      "name": "order",
-                      "placeholder": "Что печатаем?"
+                    "name": "number",
+                    "placeholder": "+7"
+                  }]
+                },
+                "success": {
+                  "type": "$network.request",
+                  "options": {
+                    "url": "mailto:dinadurykina@gmail.com?subject=It%20works!",
+                    "method": "post",
+                    "data": {
+                      "username": "{{$jason.username}}",
+                      "password": "{{$jason.number}}"
                     }
-                  ]
+                  }
                 }
               }
             },
             {
-              "type": "button",
-              "text": "УСЛУГИ и ЦЕНЫ",
+              "type": "label",
+              "text": "СДЕЛАТЬ ФОТО",
               "style": {
                 "background": "#C5CAE9",
                 "color": "#212121",
@@ -127,9 +121,14 @@
                 "bottom": "105"
               },
               "action": {
-                "type": "$util.toast",
+                "type": "$set",
                 "options": {
-                  "text": "Нажали на кнопку"
+                  "bg": {
+                    "type": "camera"
+                  }
+                },
+                "success": {
+                  "type": "$render"
                 }
               }
             }
@@ -143,15 +142,15 @@
               "items": [
                 {
                   "image": "https://DinaDurykina.github.io/icons8-vk.com-24.png",
-                  "url": "https://DinaDurykina.github.io/7_br_vk.json"
+                  "url": "https://DinaDurykina.github.io/7popvk.json"
                 },
                 {
                   "image": "https://DinaDurykina.github.io/icons8-home-page-24.png",
-                  "url": "https://DinaDurykina.github.io/7_br_home.json"
+                  "url": "https://DinaDurykina.github.io/7pophome.json"
                 },
                 {
                   "image": "https://DinaDurykina.github.io/icons8-marker-24.png",
-                  "url": "https://DinaDurykina.github.io/7_br_map.json"
+                  "url": "https://DinaDurykina.github.io/7popmapsite.json"
                 }
               ]
             }
