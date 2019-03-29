@@ -1,7 +1,7 @@
 {
   "$jason": {
     "head": {
-      "title": "popholst",
+      "title": "kosmo",
       "actions": {
         "$load":    { "type": "$render" },
         "navigate": {"type": "$default" }
@@ -10,7 +10,7 @@
         "body": {
           "background": {
             "type": "html",
-            "url": "http://popholst.ru/contact.php/",
+            "url": "https://www.instagram.com/kosmo.kids.sad/",
             "action": { "trigger": "navigate" }
           }
         }
