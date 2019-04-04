@@ -10,7 +10,7 @@
         "body": {
           "background": {
             "type": "html",
-            "url": "https://www.instagram.com/kosmo.kids.sad/",
+            "url": "https://vk.com/talantiya",
             "action": { "trigger": "navigate" }
           }
         }

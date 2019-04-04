@@ -1,7 +1,7 @@
 {
   "$jason": {
     "head": {
-      "title": "KOSMO",
+      "title": "TALANT",
       "actions": {
         "$load": {
           "type": "$set",
@@ -28,10 +28,10 @@
                 "width": "120",
                 "height": "50"
               },
-              "url": "https://DinaDurykina.github.io/kosmo-kids_name.png"
+              "url": "https://DinaDurykina.github.io/tl.png"
             },
             "menu": {
-              "text": "+7(499)397-70-77",
+              "text": "+7(495)517-10-12",
               "style": {
                 "color": "#212121",
                 "font": "Roboto",
@@ -40,7 +40,7 @@
               "action": {
                 "type": "$util.toast",
                 "options": {
-                  "text": " Сеть билингвальных\n детских садов\n и детских центров"
+                  "text": " Образовательный\n детский клуб\n в Чертаново"
                 }
               }
             }
@@ -134,16 +134,16 @@
               },
               "items": [
                 {
-                  "image": "https://DinaDurykina.github.io/icons8-instagram-24.png",
-                  "url": "https://DinaDurykina.github.io/7kosmovk.json"
+                  "image": "https://DinaDurykina.github.io/icons8-vk.com-24.png",
+                  "url": "https://DinaDurykina.github.io/7tlvk.json"
                 },
                 {
                   "image": "https://DinaDurykina.github.io/icons8-home-page-24.png",
-                  "url": "https://DinaDurykina.github.io/7kosmohome.json"
+                  "url": "https://DinaDurykina.github.io/7tlhome.json"
                 },
                 {
                   "image": "https://DinaDurykina.github.io/icons8-marker-24.png",
-                  "url": "https://DinaDurykina.github.io/7kosmomapsite.json"
+                  "url": "https://DinaDurykina.github.io/7tlmapsite.json"
                 }
               ]
             }
