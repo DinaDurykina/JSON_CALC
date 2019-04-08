@@ -63,7 +63,26 @@
                   "image": "https://DinaDurykina.github.io/icons8-camera-24.png"
                 },
                 {
-                  "image": "https://DinaDurykina.github.io/icons8-cut-paper-24.png"
+                  "image": "https://DinaDurykina.github.io/icons8-cut-paper-24.png",
+                  "actions": {
+                    "$foreground": {
+                      "type": "$reload"
+                    },
+                    "$pull": {
+                      "type": "$snapshot",
+                      "success": {
+                        "type": "$util.share",
+                        "options": {
+                          "items": [
+                            {
+                              "type": "image",
+                              "data": "{{$jason.data}}"
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  }
                 },
                 {
                   "image": "https://DinaDurykina.github.io/icons8-microphone-24.png"
